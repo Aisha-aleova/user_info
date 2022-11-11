@@ -1,0 +1,85 @@
+.sectionTop{
+    width: 100%;
+    height: 50vh;
+   
+}
+.sectionBottom{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.card{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.highlight{
+    width:450px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2px;
+    cursor: pointer;
+    border: 4px solid rgb(39, 97, 223);
+    position: relative;
+}
+.card>figure, .highlight>figure{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.card>figure>img, .highlight>figure>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.card>div, .highlight>div{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    text-align: center;
+}
+.card>div>p, .highlight>div>p{
+    font-size: 16px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.content>figure{
+    width: 20%;
+    border-radius: 50%;
+    height: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.content>figure>img{
+    width: 100%;
+}
+.leftInfo{
+    width: 30%;
+    margin-left: 30px;
+    padding: 3%;
+}
+.leftInfo>p{
+    margin: 20px 0;
+    font-size: large;
+}
